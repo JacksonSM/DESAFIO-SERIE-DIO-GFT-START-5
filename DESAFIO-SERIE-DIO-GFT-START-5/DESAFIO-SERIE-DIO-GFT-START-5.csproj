@@ -6,4 +6,8 @@
     <RootNamespace>DESAFIO_SERIE_DIO_GFT_START_5</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Entidades\" />
+  </ItemGroup>
+
 </Project>
