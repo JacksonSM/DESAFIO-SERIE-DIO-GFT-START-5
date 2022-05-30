@@ -3,7 +3,7 @@ using System;
 
 namespace Programa.Entidades
 {
-    class Serie : EntidadeBase
+    public class Serie : EntidadeBase
     {
         private Genero Genero { get; set; }
         private string Titulo { get; set; }
@@ -18,8 +18,7 @@ namespace Programa.Entidades
             Ano = ano;
         }
         public override string ToString()
-        {
-            // Environment.NewLine https://docs.microsoft.com/en-us/dotnet/api/system.environment.newline?view=netcore-3.1
+        {           
             string retorno = "";
             retorno += "Gênero: " + this.Genero + Environment.NewLine;
             retorno += "Titulo: " + this.Titulo + Environment.NewLine;
