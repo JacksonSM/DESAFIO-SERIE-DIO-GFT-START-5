@@ -1,4 +1,4 @@
-﻿namespace Programa.Enum
+﻿namespace Programa
 {
 	public enum Genero
 	{

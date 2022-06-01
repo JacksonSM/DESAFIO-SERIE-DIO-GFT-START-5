@@ -1,4 +1,4 @@
-﻿using Programa.Enum;
+﻿
 using System;
 
 namespace Programa.Entidades
@@ -10,8 +10,9 @@ namespace Programa.Entidades
         private string Descricao { get; set; }
         private int Ano { get; set; }
 
-        public Serie(Genero genero, string titulo, string descricao, int ano)
+        public Serie(int id, Genero genero, string titulo, string descricao, int ano)
         {
+            Id = id;
             Genero = genero;
             Titulo = titulo;
             Descricao = descricao;
@@ -32,6 +33,7 @@ namespace Programa.Entidades
         }
         public int retornaId()
         {
+            
             return this.Id;
         }
     }
